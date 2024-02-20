@@ -1,16 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Kanban</title>
-	<link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board Project Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #008080;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        ul, ol {
+            margin-left: 20px;
+        }
+        ul li, ol li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #008080;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .button-53 {
+  background-color: #3DD1E7;
+  border: 0 solid #E5E7EB;
+  box-sizing: border-box;
+  color: #000000;
+  display: flex;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: 1rem 1.65rem;
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+  width: 100%;
+  max-width: 460px;
+  position: relative;
+  cursor: pointer;
+  transform: rotate(-2deg);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-53:focus {
+  outline: 0;
+}
+
+.button-53:after {
+  content: '';
+  position: absolute;
+  border: 1px solid #000000;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+.button-53:hover:after {
+  bottom: 2px;
+  left: 2px;
+}
+
+.divgap{
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+        
+    </style>
 </head>
 <body>
-	<div class="kanban">
-		
-	</div>
-	<script src="js/main.js" type="module"></script>
+    <h1>Welcome to the Kanban Board Project</h1>
+    <p>This Kanban board project is designed to help you manage your tasks and projects efficiently. Here's what you need to know:</p>
+    <h2 style="color: #008080;">Features:</h2>
+    <ul style="list-style-type: circle;">
+        <li>Visualize tasks and workflows using customizable boards</li>
+        <li>Drag and drop cards to indicate task status and progress</li>
+        <li>Collaborate with team members in real-time</li>
+        <li>Set deadlines, assign tasks, and track project milestones</li>
+        <li>Generate reports and analytics to monitor performance</li>
+    </ul>
+    <h2 style="color: #008080;">Getting Started:</h2>
+    <p>To start using the Kanban board:</p>
+    <ol style="list-style-type: decimal;">
+        <li>Sign up for an account or log in if you already have one.</li>
+        <li>Create a new board or join an existing one.</li>
+        <li>Add tasks to your board and start organizing your workflow.</li>
+        <li>Collaborate with team members and track progress towards your goals.</li>
+    </ol>
+    <div class="divgap">
+
+        <a href="home.html"><button class="button-53" role="button">Try your Kanban Board now!!</button></a>
+    </div>
 </body>
 </html>
